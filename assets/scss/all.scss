@@ -1,5 +1,19 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
+@import './helpers/variables';
+@import './helpers/utilities';
 
-@import './pages/index.scss';
+@import './base/reset';
+@import './base/base';
+
+@import './components/breadcrumb';
+@import './components/button';
+
+@import './layout/header';
+@import './layout/footer';
+
+@import './pages/index';
+@import './pages/story';
+@import './pages/product';
+@import './pages/products';
+

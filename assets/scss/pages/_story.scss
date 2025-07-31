@@ -1,0 +1,67 @@
+/* 樣式設定 */
+.nav-container {
+  width: 1206px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(../img/story/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 152px 0;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 87px 0;
+    background-image: url(../img/story/hero-sm.png);
+  }
+}
+
+.intro img {
+  width: 1076px;
+  max-width: none;
+  margin-left: -110px;
+  margin-right: -110px;
+}
+
+@media (max-width: 1200px) {
+  .intro img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.divider {
+  border-bottom: 1px solid $neutral-300;
+}
+
+.history-list {
+  list-style-type: disc;
+  padding-left: 24px;
+}
+
+.history-desc {
+  border-left: 1px solid $neutral-900;
+  padding-left: 8px;
+}
+
+.concept-item {
+  border-left: 3px solid $neutral-300;
+  padding-left: 12px;
+}
+
+.underlined-link {
+  color: $primary-400;
+  text-underline-offset: 4px;
+  display: block;
+}
+
+.bi.bi-arrow-up-right {
+  padding-right: 8px;
+  vertical-align: bottom;
+}

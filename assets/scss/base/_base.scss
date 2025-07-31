@@ -1,0 +1,23 @@
+/* 標籤基本樣式 / Base */
+* ,*:before, *:after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: $neutral-900;
+  text-decoration: none;
+  display: block;
+}
+
+body, button {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: $neutral-900;
+}
