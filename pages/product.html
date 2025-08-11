@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <%- include('./layout/header'); -%>
@@ -95,20 +96,20 @@
           <!-- 產品資訊 -->
           <div>
             <ul>
-              <li class="product-info-item py-12">
+              <li class="product-info-item py-12" data-aos="fade-down" data-aos-duration="1200">
                 <h4 class="product-info-title mb-4">商品材質</h4>
                 <p>鞋面：合成皮革（Synthetic Leather）</p>
                 <p>內裡：透氣網布材質，提升舒適與排汗性</p>
                 <p>鞋底：EVA 輕量發泡橡膠，具備良好緩震與止滑效果</p>
                 <p>鞋帶：聚酯纖維，耐拉扯不易鬆脫</p>
               </li>
-              <li class="product-info-item py-12">
+              <li class="product-info-item py-12" data-aos="fade-down" data-aos-duration="1200">
                 <h4 class="product-info-title mb-4">購買須知</h4>
                 <p>商品顏色因螢幕顯示可能略有差異，請以實品為準。</p>
                 <p>建議首次穿著前試穿確認尺寸，避免影響退換貨權益。</p>
                 <p>本商品為限量發售，庫存有限，如需更換尺寸請儘早聯繫客服協助處理。</p>
               </li>
-              <li class="product-info-item py-12">
+              <li class="product-info-item py-12" data-aos="fade-down" data-aos-duration="1200">
                 <h4 class="product-info-title mb-4">保養方式</h4>
                 <p>建議以乾布或微濕軟布擦拭表面汙漬，避免機洗或長時間浸水。</p>
                 <p>收納時請放置於乾燥通風處，避免日曬及高溫導致變形或龜裂。</p>
@@ -123,28 +124,28 @@
         <div class="row flex-nowrap overflow-x-auto ms-md--4">
           <div class="col-3 col-md-3 col-sm-3">
             <a href="product.html">
-              <img src="/assets/images/products/product-2.png" alt="VM001" class="mb-12">
+              <img src="/assets/images/products/product-2.png" alt="VM001" class="mb-12" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1200">
               <h4 class="h6 mb-4">VM001</h4>
               <p>NT$2,600</p>
             </a>
           </div>
           <div class="col-3 col-md-3 col-sm-3">
             <a href="product.html">
-              <img src="/assets/images/products/product-3.png" alt="Melty Kiss" class="mb-12">
+              <img src="/assets/images/products/product-3.png" alt="Melty Kiss" class="mb-12" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1200">
               <h4 class="h6 mb-4">Melty Kiss</h4>
               <p>NT$4,000</p>
             </a>
           </div>
           <div class="col-3 col-md-3 col-sm-3">
             <a href="product.html">
-              <img src="/assets/images/products/product-4.png" alt="BOOMBLOK" class="mb-12">
+              <img src="/assets/images/products/product-4.png" alt="BOOMBLOK" class="mb-12" data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="1200">
               <h4 class="h6 mb-4">BOOMBLOK</h4>
               <p>NT$3,200</p>
             </a>
           </div>
           <div class="col-3 col-md-3 col-sm-3">
             <a href="product.html">
-              <img src="/assets/images/products/product-7.png" alt="Sugar Snap" class="mb-12">
+              <img src="/assets/images/products/product-7.png" alt="Sugar Snap" class="mb-12" data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="1200">
               <h4 class="h6 mb-4">Sugar Snap</h4>
               <p>NT$3,200</p>
             </a>
@@ -155,6 +156,7 @@
 
     <%- include('./layout/footer'); -%>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
