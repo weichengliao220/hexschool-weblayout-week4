@@ -11,6 +11,12 @@
   padding-right: 4px;
 }
 
+.product-col:first-child {
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
 .deleted-price {
   font-size: 14px;
   line-height: 1.5;
@@ -35,17 +41,47 @@
   border-color: $neutral-900;
 }
 
+@media (max-width: 576px) {
+  .btn-product-size {
+    padding: 12px 24px;
+  }
+}
+
 .product-action {
   display: flex;
   gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .product-action .btn:first-child {
+    order: 2;
+  }
+  
+  .product-action .btn:last-child {
+    order: 1;
+  }
 }
 
 .product-action .btn {
   width: 50%;
 }
 
+@media (max-width: 768px) {
+  .product-action .btn.btn-dark {
+    width: 90%;
+  }
+  .product-action .btn.btn-light {
+    border: none;
+    width: 10%;
+  }
+}
+
 .product-action .bi {
   padding-right: 8px;
+}
+
+.product-action .btn.btn-light .bi {
+  font-size: 24px;
 }
 
 .product-info-item {
@@ -58,4 +94,19 @@
 
 .product-info-title {
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
+  
+  .row.flex-nowrap .col-3,
+  .row.flex-nowrap .col-md-3,
+  .row.flex-nowrap .col-sm-3 {
+    flex-shrink: 0;
+  }
 }

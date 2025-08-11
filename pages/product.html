@@ -11,38 +11,38 @@
     <%- include('./layout/header'); -%>
 
     <main class="container mb-40">
-      <div class="row py-64">
-        <div class="col-7">
+      <div class="row py-64 py-md-0 d-md-block">
+        <div class="col-7 col-md-4 px-md-0">
           <div class="product-row">
-            <div class="product-col mb-8">
+            <div class="product-col mb-8 mb-md-24">
               <img src="/assets/images/product/image.png" alt="">
             </div>
-            <div class="product-col mb-8">
+            <div class="product-col mb-8 d-md-none">
               <img src="/assets/images/product/image-1.png" alt="">
             </div>
-            <div class="product-col mb-8">
+            <div class="product-col mb-8 d-md-none">
               <img src="/assets/images/product/image-2.png" alt="">
             </div>
-            <div class="product-col mb-8">
+            <div class="product-col mb-8 d-md-none">
               <img src="/assets/images/product/image-3.png" alt="">
             </div>                         
-            <div class="product-col mb-8">
+            <div class="product-col mb-8 d-md-none">
               <img src="/assets/images/product/image-4.png" alt="">
             </div>
-            <div class="product-col mb-8">
+            <div class="product-col mb-8 d-md-none">
               <img src="/assets/images/product/image-5.png" alt="">
             </div>
-            <div class="product-col">
+            <div class="product-col d-md-none">
               <img src="/assets/images/product/image-6.png" alt="">
             </div>
-            <div class="product-col">
+            <div class="product-col d-md-none">
               <img src="/assets/images/product/image-7.png" alt="">
             </div>
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-5 col-md-4">
           <!-- 麵包屑導覽 -->
-          <nav class="mb-24">
+          <nav class="mb-24 mb-md-8">
             <ul class="d-flex">
               <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">首頁</a></li>
               <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">女裝</a></li>
@@ -52,13 +52,13 @@
           </nav>
           <!-- 產品介紹 -->
           <div class="mb-32">
-            <h1 class="h2 mb-16">Platform 404</h1>
-            <p class="h5 text-primary-400 mb-16">NT$2,600<del class="deleted-price">NT$3,200</del></p>
+            <h1 class="h2 h4-md mb-16 mb-md-12">Platform 404</h1>
+            <p class="h5 h6-md text-primary-400 mb-16 mb-md-12">NT$2,600<del class="deleted-price text-sm">NT$3,200</del></p>
             <p class="mb-12">Platform 404 以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。</p>
             <p>鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。</p>
           </div>
           <!-- 產品顏色 -->
-          <div class="mb-32">
+          <div class="mb-32 mb-md-24">
             <h3 class="mb-8">顏色</h3>
             <div class="d-flex">
               <div class="product-color me-8">
@@ -72,7 +72,7 @@
             </div>
           </div>
           <!-- 產品尺寸 -->
-          <div class="mb-48">
+          <div class="mb-48 mb-md-24">
             <h3 class="mb-8">尺寸</h3>
             <div class="d-flex flex-wrap gap-8 mb-8">
               <button type="button" class="btn btn-product-size active">35(22.5cm)</button>
@@ -89,7 +89,7 @@
           </div>
           <!-- 收藏預約 -->
           <div class="product-action mb-32">
-            <button type="button" class="btn btn-light"><i class="bi bi-heart"></i>加入收藏</button>
+            <button type="button" class="btn btn-light"><i class="bi bi-heart"></i><span class="d-md-none">加入收藏</span></button>
             <button type="button" class="btn btn-dark"><i class="bi bi-handbag"></i>門市預約試穿</button>
           </div>
           <!-- 產品資訊 -->
@@ -119,30 +119,30 @@
         </div>
       </div>
       <div class="py-48">
-        <h2 class="h4 mb-16">你可能也喜歡...</h2>
-        <div class="row">
-          <div class="col-3">
+        <h2 class="h4 h5-md mb-16">你可能也喜歡...</h2>
+        <div class="row flex-nowrap overflow-x-auto ms-md--4">
+          <div class="col-3 col-md-3 col-sm-3">
             <a href="product.html">
               <img src="/assets/images/products/product-2.png" alt="VM001" class="mb-12">
               <h4 class="h6 mb-4">VM001</h4>
               <p>NT$2,600</p>
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-3 col-md-3 col-sm-3">
             <a href="product.html">
               <img src="/assets/images/products/product-3.png" alt="Melty Kiss" class="mb-12">
               <h4 class="h6 mb-4">Melty Kiss</h4>
               <p>NT$4,000</p>
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-3 col-md-3 col-sm-3">
             <a href="product.html">
               <img src="/assets/images/products/product-4.png" alt="BOOMBLOK" class="mb-12">
               <h4 class="h6 mb-4">BOOMBLOK</h4>
               <p>NT$3,200</p>
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-3 col-md-3 col-sm-3">
             <a href="product.html">
               <img src="/assets/images/products/product-7.png" alt="Sugar Snap" class="mb-12">
               <h4 class="h6 mb-4">Sugar Snap</h4>

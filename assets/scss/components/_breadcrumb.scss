@@ -16,6 +16,9 @@
 }
 
 @media (max-width: 767px) {
+  .breadcrumb-item {
+    font-size: 14px;
+  }
   .breadcrumb-item + .breadcrumb-item::before {
     padding: 0 8px;
   }
