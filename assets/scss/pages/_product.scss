@@ -41,6 +41,11 @@
   border-color: $neutral-900;
 }
 
+.btn-product-size:disabled {
+  color: $neutral-300;
+  cursor: not-allowed;
+}
+
 @media (max-width: 576px) {
   .btn-product-size {
     padding: 12px 24px;
