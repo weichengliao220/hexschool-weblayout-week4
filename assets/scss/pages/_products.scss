@@ -12,3 +12,12 @@
   background-color: $primary-300;
   font-weight: 500;
 }
+
+.page-item .btn:hover:not(.active) {
+  background-color: $neutral-100;
+}
+
+.btn:disabled {
+  color: $neutral-500;
+  cursor: not-allowed;
+}
