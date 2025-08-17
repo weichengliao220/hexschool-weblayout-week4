@@ -6,7 +6,7 @@
 }
 
 .header {
-  background-image: url(../img/story/hero.png);
+  background-image: url(../images/story/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -17,7 +17,7 @@
 @media (max-width: 767px) {
   .header {
     padding: 87px 0;
-    background-image: url(../img/story/hero-sm.png);
+    background-image: url(../images/story/hero-sm.png);
   }
 }
 
@@ -57,7 +57,8 @@
 
 .underlined-link {
   color: $primary-400;
-  text-underline-offset: 4px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
   display: block;
 }
 
